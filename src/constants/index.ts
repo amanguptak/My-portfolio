@@ -22,7 +22,8 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
+aws,
+next,
   docker,
   meta,
   starbucks,
@@ -31,7 +32,7 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
+
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -102,22 +103,24 @@ const technologies: TTechnology[] = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+ 
   {
     name: "docker",
     icon: docker,
   },
+  {
+    name: "AWS",
+    icon: aws,
+  },
+  {
+    name:"Next",
+    icon:next,
+  }
 ];
 
 const experiences: TExperience[] = [
