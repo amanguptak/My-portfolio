@@ -1,28 +1,9 @@
-# 3D Portfolio
+# Aman Portfolio
 
 <!-- GitHub badges -->
 
-[![Latest release](https://img.shields.io/github/v/release/ladunjexa/reactjs18-3d-portfolio?label=Latest%20release&style=social)](https://github.com/ladunjexa/reactjs18-3d-portfolio/releases/tag/v0.1.0)
-[![Stars](https://img.shields.io/github/stars/ladunjexa/reactjs18-3d-portfolio?style=social)](https://github.com/ladunjexa/reactjs18-3d-portfolio/stargazers)
-[![Fork](https://img.shields.io/github/forks/ladunjexa/reactjs18-3d-portfolio?style=social)](https://github.com/ladunjexa/reactjs18-3d-portfolio/forks)
-[![GitHub commits](https://img.shields.io/github/commit-activity/t/ladunjexa/reactjs18-3d-portfolio?style=social&logo=github)](https://github.com/ladunjexa/reactjs18-3d-portfolio/commits)
-[![Pull requests](https://img.shields.io/github/issues-pr/ladunjexa/reactjs18-3d-portfolio?style=social&logo=github)](https://github.com/ladunjexa/reactjs18-3d-portfolio/pulls)
 
-![demo](.github/README_ASSETS/3d-portfolio.png)
 
-[![ladunjexa](https://custom-icon-badges.demolab.com/badge/made%20by%20-ladunjexa-556bf2?logo=github&logoColor=white&labelColor=101827)](https://github.com/luadnjexa)
-[![License](https://img.shields.io/github/license/ladunjexa/reactjs18-3d-portfolio?color=dddddd&labelColor=000000)](https://github.com/ladunjexa/reactjs18-3d-portfolio/blob/main/LICENSE)
-[![Top Language](https://img.shields.io/github/languages/top/ladunjexa/reactjs18-3d-portfolio?logo=github&logoColor=%23007ACC&label=TypeScript)](https://www.typescriptlang.org/)
-[![Contributors](https://img.shields.io/github/contributors/ladunjexa/reactjs18-3d-portfolio?style=flat&color=orange&label=Contributors)](https://github.com/ladunjexa/reactjs18-3d-portfolio/graphs/contributors)
-![Release](https://img.shields.io/github/release/ladunjexa/reactjs18-3d-portfolio.svg)
-![PRs](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=shields)
-![deployment](https://img.shields.io/github/deployments/ladunjexa/reactjs18-3d-portfolio/Production?logo=vercel&label=Website)
-[![Known Vulnerabilities](https://snyk.io/test/github/ladunjexa/reactjs18-3d-portfolio/badge.svg)](https://snyk.io/test/github/ladunjexa/reactjs18-3d-portfolio)
-
-## 🌐 Live Demo
-
-Explore the live demonstration of the project:
-[reactjs18-3d-portfolio](https://reactjs18-3-d-portfolio.vercel.app/)
 
 ## 📝 Description
 
@@ -124,20 +105,19 @@ reactjs18-3d-portfolio/
 - [Environment Variables](#-environment-variables)
 - [Deployment](#-deployment)
   - [Deploy to production (manual)](#-deploy-to-production-manual)
-  - [Deploy on Vercel (recommended)](#-deploy-on-vercel-recommended)
-  - [Deploy on Netlify](#-deploy-on-netlify)
-- [Contributing](#-contributing)
-  - [Bug / Feature Request](#-bug--feature-request)
-- [Acknowledgements](#-acknowledgements)
+
+
+
+
 - [References](#-references)
 - [Contact Us](#-contact-us)
-- [License](#-license)
+
 
 </details>
 
 ## ✨ Technologies Used
 
-<details><summary><b>3D Portfolio</b> is built using the following technologies:</summary>
+<details><summary><b>Portfolio</b> is built using the following technologies:</summary>
 
 - [TypeScript](https://www.typescriptlang.org/): TypeScript is a typed superset of JavaScript that
   compiles to plain JavaScript.
@@ -158,7 +138,6 @@ reactjs18-3d-portfolio/
 
 </details><br/>
 
-[![Technologies Used](https://skillicons.dev/icons?i=ts,vite,react,threejs,tailwind,vercel)](https://skillicons.dev)
 
 ## 🧰 Get Started
 
@@ -178,7 +157,7 @@ your local machine.
 
 **Step 0:**
 
-Note :bangbang: the application uses EmailJS in order to send emails using client-side, therefore,
+Note :this application uses EmailJS in order to send emails using client-side, therefore,
 you need to create EmailJS account [here](https://emailjs.com/) and sets the
 `VITE_EMAILJS_SERVICE_ID`, `VITE_EMAILJS_TEMPLATE_ID`, and `VITE_EMAIL_JS_ACCESS_TOKEN` environment
 variables in `.env` file.
@@ -188,7 +167,7 @@ variables in `.env` file.
 Download or clone this repo by using the link below:
 
 ```bash
-git clone https://github.com/ladunjexa/reactjs18-3d-portfolio.git
+git clone url
 ```
 
 **Step 2:**
@@ -232,7 +211,7 @@ Environment variables[^3] can be used for configuration. They must be set before
 > [Environment variables](https://en.wikipedia.org/wiki/Environment_variable) are variables that are
 > set in the operating system or shell, typically used to configure programs.
 
-**React.js 18 3D Portfolio** uses [EmailJS](https://www.emailjs.com/) as external service. You need
+**Aman Portfolio** uses [EmailJS](https://www.emailjs.com/) as external service. You need
 to create an account and get the required credentials to run the app.
 
 Create a `.env` file in the root directory of the project and add the following environment
@@ -274,7 +253,7 @@ possible:
 ## 📞 Contact Us
 
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ladunjexa-blue?style=flat&logo=linkedin&logoColor=b0c0c0&labelColor=363D44)](https://www.linkedin.com/in/aman-gupta-7577691b5/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-aman-gupta-blue?style=flat&logo=linkedin&logoColor=b0c0c0&labelColor=363D44)](https://www.linkedin.com/in/aman-gupta-7577691b5/)
 
 
 
