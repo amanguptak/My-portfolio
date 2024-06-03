@@ -86,7 +86,7 @@ const Works = () => {
     <>
       <Header useMotion={true} {...config.sections.works} />
 
-      <div className="flex w-full">
+      <div className="flex w-full" id="projects">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="text-white mt-3 max-w-5xl text-[17px] leading-[30px]"

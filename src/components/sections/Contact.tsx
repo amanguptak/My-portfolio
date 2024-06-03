@@ -8,6 +8,8 @@ import { config } from '../../constants/config';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
+
+
 const INITIAL_STATE = Object.fromEntries(
   Object.keys(config.contact.form).map(input => [input, ''])
 );
@@ -96,7 +98,9 @@ const Contact = () => {
         className="h-[350px] md:h-[550px] xl:h-auto xl:flex-1 cursor-grab"
       >
         <EarthCanvas />
+       
       </motion.div>
+    
     </div>
   );
 };

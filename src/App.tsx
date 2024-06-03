@@ -15,6 +15,7 @@ import {
 } from "./components";
 import { useEffect } from "react";
 import { config } from "./constants/config";
+import SocialLinks from "./components/sections/SocialLink";
 
 const App = () => {
   useEffect(() => {
@@ -42,6 +43,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+        <SocialLinks/>
       </div>
       <ToastContainer />
     </BrowserRouter>
