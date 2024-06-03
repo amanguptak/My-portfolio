@@ -1,4 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import {
   About,
@@ -26,7 +28,10 @@ const App = () => {
       <div className="bg-[#428bd0] relative z-0">
         <div className="bg-hero-pattern bg-cover bg-center bg-no-repeat">
           <Navbar />
+          <div className="cursor-grab">
           <Hero />
+          </div>
+       
         </div>
         <About />
         <Experience />
@@ -38,6 +43,7 @@ const App = () => {
           <StarsCanvas />
         </div>
       </div>
+      <ToastContainer />
     </BrowserRouter>
   );
 };
