@@ -29,9 +29,7 @@ next,
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+ 
 
 } from "../assets";
 
@@ -207,67 +205,133 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Anime Clothing store use NextJS and Mern Stack",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A ecommerce Web app full responsive using Next Js redux, bootstrap,,mui , expressjs and mongdb(mongoAtlas), for authentication I used jwt and stored the token inside cookies for user and admin validation I created middleware. And frontend is designed in Next js and redux toolkit used reduxthunk for api call,login ,register page with attractive user interface and use Scss..",
+      tags: [
+        {
+          name: "NextJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ExpressJS",
+          color: "pink-text-gradient",
+        },
+      ],
+    image: '/images/projects/animeEcom.png',
+    sourceCodeLink: "https://github.com/",
+    previewLink:"https://anime-clothing-frontend.vercel.app/"
+  },
+  {
+    name: "Job Hunt Website",
+    description:"Job website where user can apply for the job and they can accesses more feature a website after registration , frontend of website is based on React and backend is based on Express js and jwt is used for authentication mongoDB is used as database",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "ExpressJS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: 'images/projects/jobwebsite.png',
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Motion-School LMS Web Application",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
+      "Developed an advanced Learning Management System (LMS) platform using Next.js 13 with the App Router within the React.js Framework. Implemented TypeScript for a robust and modern frontend architecture.\n- Implemented Prisma for seamless data management and Stripe for secure payment processing.\n- Integrated Mux for advanced video streaming and employed Tailwind for modern, responsive styling.\n- Developed a multifaceted authentication system with Google, GitHub, and email login options using clerk.\n- Demonstrated proficiency in latest technologies, emphasizing commitment to user-friendly solutions in educational technology.",
+      tags: [
+        {
+          name: "NextJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "OpenAI",
+          color: "pink-text-gradient",
+        },
+      ],
+    image: "/images/projects/lmsprotfolio.png",
+    sourceCodeLink: "https://github.com/amanguptak/Motion-school",
+    previewLink:"https://motion-school.vercel.app"
   },
   {
-    name: "Trip Guide",
+    name: "Motion an Ai powered note talking app",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+"Motion, fully responsive web application utilizing Next.js 13, an innovative frontend framework rooted in React.js. Developed with TypeScript, the project featured meticulous styling using Tailwind CSS to achieve a refined and contemporary user interface. Integrated MongoDB as the backend database for streamlined and secure data management. Successfully orchestrated the seamless integration of the OpenAI API, enhancing the application with cutting-edge artificial intelligence capabilities. Implemented Pinecone for precise request optimization, resulting in a substantial improvement in overall performance. A standout feature of this project is the integration of an AI chatbot 🤖, seamlessly incorporated to deliver insightful responses derived from users' current notes, thereby significantly enhancing overall user engagement. This project serves as a testament to proficiency in contemporary web development technologies and a steadfast commitment to optimizing the user experience.",      tags: [
+        {
+          name: "NextJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "OpenAI",
+          color: "pink-text-gradient",
+        },
+      ],
+    image: "https://i.postimg.cc/hjHdG1M3/Screenshot-2023-12-11-120722.png",
+    sourceCodeLink: "https://github.com/amanguptak/MotionMan",
+    previewLink:"https://motion-aman.vercel.app"
+  },
+  {
+    name: "Icommunify College Club managing web app",
+    description:
+      "A college club and its Event managing web app for client based on mern stack where I have implemented all frontend features Using Next js and Redux toolkit and used bootstrap and scss for responsiveness for api call used axios.",
+      tags: [
+        {
+          name: "NextJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "OpenAI",
+          color: "pink-text-gradient",
+        },
+      ],
+    image: "/images/projects/icom.png",
+    sourceCodeLink: "/",
+    previewLink:"https://www.icommunify.com"
+  },
+  {
+    name: "Weather App React  PWA",
+    description:
+      "Used axios , React and used PWA features of React ",
+      tags: [
+        {
+          name: "React JS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Pwa",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Axios",
+          color: "pink-text-gradient",
+        },
+      ],
+    image: "/images/projects/weather.png",
+    sourceCodeLink: "https://github.com/amanguptak/MotionMan",
+    previewLink:"https://weatherappbyaman.web.app"
   },
 ];
 
